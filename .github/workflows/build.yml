@@ -15,8 +15,8 @@ jobs:
       packages: write
     with:
       upstream_version: "add-env-for-mastodon"
-      upstream_repo: "https://github.com/halkeye/gathio"
-      checkout_upstream_repo: "halkeye/gathio"
+      upstream_repo: "https://github.com/halkeye/postiz-app"
+      checkout_upstream_repo: "halkeye/postiz-app"
       run_number: "${{ github.run_number }}"
       username: "${{ github.repository_owner }}"
       repository: "${{ github.repository }}"
